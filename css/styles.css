@@ -23,6 +23,16 @@
     background-color: #FFFFFF;
 }
 
+.container {
+    width:1158px;
+    padding-inline: 15px;
+    margin-inline: auto;
+}
+
+.section {
+    padding-block: 120px;
+}
+
 .navigation 
 {
     text-decoration: none;
