@@ -23,7 +23,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0,02em;
+    letter-spacing: 0.02em;
     color:#434455;
     background-color: #FFFFFF;
 }
@@ -36,19 +36,20 @@
 
 .head-container {
     display: flex;
+    gap:332px;
 }
 
 .container-title{
     display: block;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .section {
     padding-block: 120px;
 }
 
-.navigation 
-{
+.navigation {
     text-decoration: none;
     font-weight: 500;
     letter-spacing: 0.02em;
@@ -146,7 +147,10 @@
     color: white;
     text-align: center;
     max-width: 496px;
-    display:block;
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
     justify-content: center;
 }
 
@@ -179,7 +183,10 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    display: block;
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
     min-width:169px;
     height:56px;
     border:none;
@@ -253,7 +260,6 @@
 .nav {
     display:flex;
     align-items: center;
-    gap:40px;
 }
 
 .header-one {
